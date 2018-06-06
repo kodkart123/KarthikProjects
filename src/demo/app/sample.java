@@ -105,6 +105,7 @@ public class sample
 	            sheet.autoSizeColumn(i);
 	        }
 	     // Write the output to a file
+	        int x;
 	        FileOutputStream fileOut = new FileOutputStream("E://poi-generated-file.xlsx");
 	        workbook.write(fileOut);
 	        fileOut.close();
